@@ -1,0 +1,111 @@
+{
+  "contract_name": "StoppableMock",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "count",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "emergencyStop",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "stopped",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "drasticMeasureTaken",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "release",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "drasticMeasure",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "normalProcess",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000575b5b60008054600160a060020a03191633600160a060020a03161790555b6000805460a860020a60ff02191681556001555b5b6103038061004b6000396000f3006060604052361561007d5763ffffffff60e060020a60003504166306661abd81146100825780631a695230146100a157806363a599a4146100bc57806375f12b21146100cb57806376657b8e146100ec57806386d1a69f1461010d5780638da5cb5b1461011c5780639958f04514610145578063e7651d7a14610154575b610000565b346100005761008f610163565b60408051918252519081900360200190f35b34610000576100ba600160a060020a0360043516610169565b005b34610000576100ba6101be565b005b34610000576100d86101fe565b604080519115158252519081900360200190f35b34610000576100d861020e565b604080519115158252519081900360200190f35b34610000576100ba61021e565b005b346100005761012961026c565b60408051600160a060020a039092168252519081900360200190f35b34610000576100ba61027b565b005b34610000576100ba6102b7565b005b60015481565b60005433600160a060020a03908116911614156101b857600160a060020a038116156101b8576000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0383161790555b5b5b5b50565b60005433600160a060020a03908116911614156101fa576000805474ff0000000000000000000000000000000000000000191660a060020a1790555b5b5b565b60005460a060020a900460ff1681565b60005460a860020a900460ff1681565b60005433600160a060020a03908116911614156101fa5760005460a060020a900460ff16156101fa576000805474ff0000000000000000000000000000000000000000191690555b5b5b5b5b565b600054600160a060020a031681565b60005460a060020a900460ff16156101fa576000805475ff000000000000000000000000000000000000000000191660a860020a1790555b5b5b565b60005460a060020a900460ff1615156101fa5760018054810190555b5b5b5600a165627a7a723058201a49d48b427a432a0443e77eb156c21d5042260f1c1379847725e3c416764b770029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1488427224816
+}
