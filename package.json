@@ -1,11 +1,19 @@
 {
-  "name": "builded-contracts",
-  "version": "1.0.0",
-  "description": "",
-  "main": "BasicToken.sol.js",
+  "name": "wings-abi-forecast",
+  "version": "1.0.1",
+  "description": "Wings Forecast ABI Contracts Data",
+  "main": "Wings.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/borispovod/ABI.git"
+  },
+  "author": "Boris Povod <boris@wings.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/borispovod/ABI/issues"
+  },
+  "homepage": "https://github.com/borispovod/ABI#readme"
 }
