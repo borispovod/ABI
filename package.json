@@ -1,6 +1,6 @@
 {
   "name": "wings-abi-forecast",
-  "version": "1.0.5-oscar",
+  "version": "1.0.6-oscar",
   "description": "Wings Forecast ABI Contracts Data",
   "main": "Wings.json",
   "scripts": {
